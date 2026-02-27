@@ -1,11 +1,16 @@
 package org.example;
 
 import java.util.Arrays;
+import java.util.List;
 
 
 public class salarysum {
-    public int salary(int[] sal){
-        int sum = Arrays.stream(sal).sum();
+    List<Department> departments = EmployeeRepository.getDepartments();
+    List<Employee> employees = EmployeeRepository.getEmployees();
+    public double salary(){
+        double sum = employees.stream().mapToDouble(emp -> emp.getSalary()).sum();
+        System.out.println(sum);
         return sum;
     }
+    
 }
