@@ -1,4 +1,4 @@
-package org.example.day1;
+package com.sp.dao;
 
 import java.sql.Date;
 

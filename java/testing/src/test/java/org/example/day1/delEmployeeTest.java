@@ -16,6 +16,5 @@ class delEmployeeTest {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-
     }
 }

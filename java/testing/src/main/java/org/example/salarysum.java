@@ -12,5 +12,5 @@ public class salarysum {
         System.out.println(sum);
         return sum;
     }
-    
+
 }
