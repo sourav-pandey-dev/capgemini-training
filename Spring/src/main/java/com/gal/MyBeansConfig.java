@@ -13,6 +13,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Scope;
 
+import com.gal.algo.Calc;
+import com.gal.algo.Mycalc;
+
 @Configuration
 public class MyBeansConfig {
 //	will create beans and then provide to spring context, then onward context will manage item
